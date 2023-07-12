@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background: #EE774A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.oan-logo {
+    color: white;
+}
+
+.intro-text {
+    display: flex;
+    width: 90%;
+    max-width: 1131px;
+    margin: 2% auto 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4769AF;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Bricolage Grotesque 48pt';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.description-text {
+    display: flex;
+    width: 90%;
+    max-width: 1081px;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'Bricolage Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.product-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% auto; /* Espacio entre el texto y las imágenes */
+    max-width: 1200px; /* Ancho máximo de las imágenes */
+    width: 90%; /* Ancho relativo de las imágenes */
+}
+
+.product-img div {
+    flex: 1;
+    border-radius: 25px;
+    background-color: lightgray;
+    box-shadow: 3px 8px 6px 0px rgba(0, 0, 0, 0.25);
+    margin-left: calc(1vw + 10px); /* Margen izquierdo (1 vez el ancho de la ventana + 10px) */
+    margin-right: calc(1vw + 10px); /* Margen derecho (1 vez el ancho de la ventana + 10px) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img div:nth-child(2) {
+    flex-grow: 2; /* Ocupa dos cuartos del espacio disponible */
+}
+
+.product-img img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% */
+    height: auto; /* Ajusta la altura de las imágenes automáticamente */
+    border-radius: 25px;
+    box-shadow: 3px 8px 6px 0px rgba(0, 0, 0, 0.25);
+    background-color: lightgray;
+}
